@@ -179,7 +179,7 @@ Normalize process reward and add outcome reward
                 `--> update rubricator
 ```
 
-![RLCER_TRAIN_BATCH workflow diagram](/meta/RLCER_TRAIN_BATCH.png)
+![RLCER_TRAIN_BATCH workflow diagram](./meta/RLCER_TRAIN_BATCH.png)
 
 **Where this is discussed:**
 - Report: `deep-research-report.md` -> `## Paper summaries, examples, and pseudocode` (RLCER block)
@@ -322,7 +322,7 @@ Verify with Z3
             `--> UNSAFE -> return failed constraints and repair trace
 ```
 
-![FORMALJUDGE_CHECK workflow diagram](./.meta/FORMALJUDGE_CHECK.png)
+![FORMALJUDGE_CHECK workflow diagram](./meta/FORMALJUDGE_CHECK.png)
 
 **What is Z3 (quick explanation):**
 - Z3 is an SMT (Satisfiability Modulo Theories) solver from Microsoft Research.
@@ -534,7 +534,7 @@ Belief propagation loop
 Converged posterior beliefs + derivation trace
 ```
 
-![LOGICAL_IR_INFERENCE workflow diagram](./.meta/LOGICAL_IR_INFERENCE.png)
+![LOGICAL_IR_INFERENCE workflow diagram](./meta/LOGICAL_IR_INFERENCE.png)
 
 **Where this is discussed:**
 - Report: `deep-research-report.md` -> `## Paper summaries, examples, and pseudocode` (Logical IR block)
@@ -708,7 +708,7 @@ Update orchestrator policy
 Anneal auxiliary PARL weights toward zero
 ```
 
-![KIMI_K25_TRAIN workflow diagram](./.meta/KIMI_K25_TRAIN.png)
+![KIMI_K25_TRAIN workflow diagram](./meta/KIMI_K25_TRAIN.png)
 
 **Where this is discussed:**
 - Report: `deep-research-report.md` -> Paper D (`2602.02276v1` block)
